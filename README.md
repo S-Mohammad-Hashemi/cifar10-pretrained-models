@@ -5,6 +5,7 @@ I couldn't find any pretrained model for cifar-10 dataset. So I trained two diff
 
 These models are trained with Keras. I got the code for training these models from https://github.com/BIGBALLON/cifar-10-cnn and made a few changes to them to train them using multiple GPUs by using this script: https://github.com/kuza55/keras-extras/blob/master/utils/multi_gpu.py. 
 
+The input shape for these models is [batch_size,32,32,3]
 
 train_model: This directory contains the code for training the vgg model and wide resnet on cifar10.
 
