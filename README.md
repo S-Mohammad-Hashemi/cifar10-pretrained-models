@@ -8,7 +8,7 @@ These models are trained with Keras. I got the code for training these models fr
 
 train_model: This directory contains the code for training the vgg model and wide resnet on cifar10.
 
-pretrained_models: This directory contains the vgg and wide resnet pretrained models. These models are trained using four Tesla K80 GPUs.
+trained_models: This directory contains the vgg and wide resnet pretrained models. These models are trained using four Tesla K80 GPUs.
 The vgg model is trained with data augmentation for 60 epochs (almost 2 hours) and achieves an accuracy of 93.41%
 The wide resnet model is trained without data augmentation for for 200 epochs (almost 7 hours) and achieves an accuracy of 92%
 
